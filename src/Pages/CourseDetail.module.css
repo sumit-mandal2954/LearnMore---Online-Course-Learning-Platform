@@ -1,0 +1,113 @@
+.container {
+  padding: 2rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f9f9f9;
+}
+
+/* Header */
+.header {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.headerContent {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: 50%;
+}
+
+.courseName {
+  font-size: 3rem;
+  color: #e6f7ff;
+  font-weight: bold;
+}
+
+.headerButtonCont {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.btn {
+  background-color: #8e34ff;
+  color: #fff;
+  padding: 0.6rem 1.2rem;
+  font-size: 1rem;
+  font-weight: 500;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #7026cc;
+}
+
+.headerImg {
+  width: 300px;
+  max-width: 100%;
+}
+
+/* Curriculum Section */
+.curriculum {
+  margin-top: 4rem;
+  padding: 0 2rem;
+  border-left: 6px solid #efefef;
+}
+
+.curriculumHeading {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+  color: #6186c4;
+}
+
+.noModules {
+  font-style: italic;
+  color: #999;
+  text-align: center;
+  padding: 1rem 0;
+}
+
+/* Module List */
+.moduleList {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1.5rem;
+}
+
+.moduleCard {
+  background: white;
+  padding: 1.2rem;
+  border-radius: 8px;
+  border: 1px solid #e2e8f0;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.04);
+  transition: transform 0.2s ease;
+}
+
+.moduleCard:hover {
+  transform: translateY(-3px);
+}
+
+.moduleTitle {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #1a202c;
+  margin-bottom: 0.5rem;
+}
+
+.moduleDesc {
+  font-size: 1rem;
+  color: #4a5568;
+}
+
+.chapterNumber {
+  color: #cdcdcd;
+  font-size: 0.9rem;
+}

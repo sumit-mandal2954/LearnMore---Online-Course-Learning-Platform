@@ -1,0 +1,81 @@
+.authPageWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 4rem 1rem;
+  min-height: 100vh;
+  background-color: #f8f8ff;
+}
+
+.pageHeading {
+  text-align: center;
+  font-size: 1.4rem;
+  color: #555;
+  margin-bottom: 2rem;
+}
+
+.authFormContainer {
+  width: 100%;
+  max-width: 400px;
+  padding: 2rem;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.authTitle {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  color: #333;
+}
+
+.formGroup {
+  margin-bottom: 1.2rem;
+}
+
+.inputField {
+  width: 100%;
+  padding: 0.75rem;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+  transition: border-color 0.2s;
+}
+
+.inputField:focus {
+  border-color: #8e34ff;
+  outline: none;
+}
+
+.submitBtn {
+  width: 100%;
+  padding: 0.8rem;
+  background-color: #8e34ff;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.submitBtn:hover {
+  background-color: #7229cc;
+}
+
+.linkGroup {
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.linkText {
+  color: #8e34ff;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.linkText:hover {
+  text-decoration: underline;
+}

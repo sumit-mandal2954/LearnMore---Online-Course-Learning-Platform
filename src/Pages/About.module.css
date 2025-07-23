@@ -1,0 +1,102 @@
+.aboutWrapper {
+  background-color: #0d0d0d;
+  color: #eaeaea;
+  padding: 3rem 2rem;
+  max-width: 960px;
+  margin: 3rem auto;
+  border-radius: 12px;
+  box-shadow: 0 0 25px rgba(0, 255, 255, 0.08);
+  font-family: 'Segoe UI', sans-serif;
+  line-height: 1.7;
+  text-align: center;
+}
+
+.heading {
+  font-size: 2.7rem;
+  color: #00f2ff;
+  margin-bottom: 1.5rem;
+  font-weight: 700;
+  border-bottom: 2px solid #00f2ff;
+  display: inline-block;
+  padding-bottom: 0.5rem;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.intro {
+  font-size: 1.2rem;
+  margin: 0 auto 2.5rem;
+  max-width: 750px;
+  color: #dcdcdc;
+}
+
+.featuresSection,
+.missionSection,
+.joinSection {
+  margin-top: 2.5rem;
+}
+
+.subHeading {
+  font-size: 1.8rem;
+  color: #ffa500;
+  margin-bottom: 1rem;
+  font-weight: 600;
+  position: relative;
+}
+
+.subHeading::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: #ffa500;
+  margin: 0.5rem auto 1rem;
+  border-radius: 6px;
+}
+
+.featureList {
+  list-style: none;
+  padding: 0;
+  margin: 0 auto;
+  max-width: 720px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.2rem;
+  text-align: left;
+}
+
+.featureList li {
+  background-color: #1a1a1a;
+  padding: 1rem 1.2rem;
+  border-left: 4px solid #00f2ff;
+  border-radius: 8px;
+  color: #eee;
+  /* No animation here */
+}
+
+.missionSection p,
+.joinSection p {
+  max-width: 720px;
+  margin: 0 auto;
+  font-size: 1.05rem;
+  color: #cccccc;
+  line-height: 1.6;
+}
+
+.cta {
+  display: inline-block;
+  background-color: #28c76f;
+  color: white;
+  padding: 0.8rem 1.5rem;
+  border-radius: 8px;
+  margin-top: 1.5rem;
+  text-decoration: none;
+  font-weight: bold;
+  transition: transform 0.3s ease, background 0.3s ease;
+}
+
+.cta:hover {
+  background-color: #20a45b;
+  transform: scale(1.05);
+}
